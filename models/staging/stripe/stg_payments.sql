@@ -3,7 +3,7 @@ with payments as (
     select
         ID as payment_id, 
         ORDERID as order_id, 
-        PAYMENTMETHOD as pyment_method, 
+        PAYMENTMETHOD as payment_method, 
         STATUS, 
         AMOUNT/100 as amount, 
         CREATED, 
